@@ -9,12 +9,9 @@
 /* 1. Container
 /* 2. Menu
 /* 3. Header
-/* 4. Quem somos
-/* 5. Nossos cursos
-/* 6. Planos
-/* 7. Vantagens
-/* 8. Newsletter
-/* 9. Footer
+/* 4. Somos (conteudo )
+/* 5. Newsletter
+/* 6. Footer
 /**********************************/
 
 /**********************************/
@@ -49,6 +46,7 @@ a:link,
 a:visited {
 	text-decoration: none;
 	color: black;
+
 }
 
 hr {
@@ -78,9 +76,8 @@ img {
 /**********************************/
 /* 2. Menu
 /**********************************/
-.menu-bg {
-	background-color: var(--clr-green-light);
-
+.menu-bg {	
+	background-image: linear-gradient(to bottom, yellow, red);
 }
 
 .menu {
@@ -115,64 +112,86 @@ img {
 	text-align: center;
 	margin: 0 auto;
 	padding: 25px 0;
+	margin-bottom: 40px;
 }
 
 
 /**********************************/
-/* 4. Quem somos
+/* 4. Conteudo
 /**********************************/
 
-.somos {
+.conteudos {
 	max-width: 960px;
 	margin: 0 auto;	
 }
 
-.somos-c {
+.conteudos-c {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 }
 
-.somos-c_texto {
+.conteudos-c_texto {
 	flex: 6 1 160px;
 }
 
-.somos-c_img {
+.conteudos-c_img {
 	flex:1 1 350px;
 }
 
 
 /**********************************/
-/* 5. Nossos cursos
+/* 5. Elementos
 /**********************************/
 
-.cursos {
+.elementos {
 	max-width: 960px;
 	margin: 0 auto;
+	margin-bottom: 100px;
 }
 
-.cursos-c {
+.elementos-c {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
 
-.curso {
-	width: 280px;
+.elemento {
+	width: 200px;
 	margin: 0  20px;
+	border-bottom: 2px solid var(--clr-green-light);
+	border-top: 2px solid var(--clr-green-light);
+	border-radius: 10px;
+	margin-top: 10px;
+	padding-top: 25px;
 }
 
-.curso_titulo {
+.elemento_titulo {
 	font-size: 1.5rem;
 	text-align: center;
 	margin: 10px 0 5px 0;
+	font-weight: bold;
+}
+
+.data {
+	text-align: center;
+	color: red;
+	margin-left: 10px;
+	margin-bottom: 15px;
+	align-items: center;
+}
+
+.contador{
+	font-weight: bold;
+	align-items: center;
 }
 
 /**********************************/
 /* 6. Planos
 /**********************************/
 .planos{
-	background-color: var(--clr-pink-light);
+   /*	background-color: var(--clr-pink-light);*/
+   background-image: linear-gradient(to bottom, var(--clr-pink-light), var(--clr-pink-dark));
 }
 
 .planos-c {

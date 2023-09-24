@@ -13,192 +13,88 @@
 </head>
 <body>
 <header>
-	<div class="menu-bg">
+	<div class="menu-bg">		
 		<div class="menu">
 			<div class="menu_logo">
-				<a href="index.html"><img src="img/logo.png" alt="logo"></a>
+				<a href="index.html"><img src="img/logo.png" alt="logo"></a> 
 			</div> <!-- .menu_logo -->
 			<nav class="nav">
 				<ul class="nav_list">
-					<li><a href="#somos" class="nav_link">Quem somos</a></li>
-					<li><a href="#cursos" class="nav_link">Nossos Cursos</a></li>
-					<li><a href="#planos" class="nav_link">Planos</a></li>
-					<li><a href="#vantagens" class="nav_link">Vantagens</a></li>
+					<li><a href="index.html" class="nav_link">Todas as Categorias</a></li>
+					<li><a href="acao.html" class="nav_link">Ação</a></li>
+					<li><a href="rpg.html" class="nav_link">RPG</a></li>
+					<li><a href="luta.html" class="nav_link">Luta</a></li>
+					<li><a href="aventura.html" class="nav_link">Aventura</a></li>
 				</ul><!-- .nav_link-->
 			</nav> <!-- nav -->
 		</div> <!-- .menu -->
 	</div> <!--menu-bg-->
 
-	<h1 class="intro"> Fique por dentro, <br /> as ultimas noticias de uma só vez!!!</h1>
+	<h1 class="intro"> Fique por dentro, <br /> todas as noticias em um só lugar!!!</h1>
 </header>
-
-<hr>
-
-<section class="somos" id="somos">
-	<h2 class="section_titulo">Quem somos</h2>
-	<div class="somos-c">
-		<div class="somos-c_texto">
-			<p>
-				Mussum Ipsum, cacilds vidis litro abertis. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu
-				levo!
-				Atirei o pau no gatis, per gatis num morreus. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Cevadis
-				im
-				ampola pa arma uma pindureta.
-			</p>
-			<br>
-			<p>
-				Copo furadis é disculpa de bebadis, arcu quam euismod magna. Praesent vel viverra nisi. Mauris aliquet nunc non
-				turpis
-				scelerisque, eget. Interagi no mé, cursus quis, vehicula ac nisi. Suco de cevadiss, é um leite divinis, qui tem
-				lupuliz,
-				matis, aguis e fermentis.
-			</p>
-		</div><!-- .somos-c_texto-->
-		<div class="somos-c_img">
-			<img src="img/games-1024x430.png" alt="Quem Somos">
-		</div> <!-- .somos-c_img-->
-	</div><!-- .somos-c-->
-</section><!-- .somos -->
-
-<hr>
-
-<section class="cursos" id="cursos">
-	<h2 class="section_titulo">Nossos Cursos</h2>
-	<div class="cursos-c">		
-			<div class="curso">
-				<img src="img/homem-aranha.png" alt="homem-aranha" class="curso_img">
-				<h3 class="curso_titulo">Homem-Aranha</h3>
-				<p class="curso_descricao">
+     
+<section class="elementos" id="elementos">
+	<div class="elementos-c">
+		<a href="acao.html" target="_blank">		
+			<div class="elemento" onclick="contadorDeVisualizacoes()">
+				<img src="img/homem-aranha.png" alt="homem-aranha" class="elemento_img">
+			    <h3 class="elemento_titulo">Homem-Aranha</h3>
+				<p class="elemento_descricao">
 					Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit.
 					Aenean
 					sit amet nisi.
 				</p>
-			</div><!-- curso -->
-			<div class="curso">
-				<img src="img/sonic.png" alt="sonic" class="curso_img">
-				<h3 class="curso_titulo">Sonic</h3>
-				<p class="curso_descricao">
+				<hr>
+				<span class="data">Post em  <time datetime="2023-09-23">23/09/23</time></span>
+				<p class="contador">Total de visualizações: <span id="contador"> 0 </span> </p>
+			</div><!-- elemento -->
+		</a> <!-- link pag ação -->
+		<a href="rpg.html" target="_blank">		
+			<div class="elemento" onclick="contadorDeVisualizacoes()">
+				<img src="img/sonic.png" alt="sonic" class="elemento_img">
+			    <h3 class="elemento_titulo">Sonic</h3>
+				<p class="elemento_descricao">
 					Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit.
 					Aenean
 					sit amet nisi.
 				</p>
-			</div><!-- curso -->
-			<div class="curso">
-				<img src="img/ryu.png" alt="ryu" class="curso_img">
-				<h3 class="curso_titulo">Ryu</h3>
-				<p class="curso_descricao">
+				<hr>
+				<span class="data">Post em  <time datetime="2023-09-23">23/09/23</time></span>
+				<p class="contador">Total de visualizações: <span id="contador"> 0 </span> </p>
+			</div><!-- elemento -->
+		</a> <!-- link pag rpg -->
+		<a href="luta.html" target="_blank">		
+			<div class="elemento" onclick="contadorDeVisualizacoes()">
+				<img src="img/ryu.png" alt="ryu" class="elemento_img">
+			    <h3 class="elemento_titulo">Ryu</h3>
+				<p class="elemento_descricao">
 					Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit.
 					Aenean
 					sit amet nisi.
 				</p>
-			</div> <!-- curso -->		
-	</div><!-- .cursos-c -->
-</section> <!--.cursos-->
+				<hr>
+				<span class="data">Post em  <time datetime="2023-09-23">23/09/23</time></span>
+				<p class="contador">Total de visualizações: <span id="contador"> 0 </span> </p>
+			</div><!-- elemento -->
+		</a> <!-- link pag luta -->
+		<a href="aventura.html" target="_blank">		
+			<div class="elemento" onclick="contadorDeVisualizacoes()">
+				<img src="img/homem-aranha.png" alt="homem-aranha" class="elemento_img">
+			    <h3 class="elemento_titulo">Homem-Aranha</h3>
+				<p class="elemento_descricao">
+					Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit.
+					Aenean
+					sit amet nisi.
+				</p>
+				<hr>
+				<span class="data">Post em  <time datetime="2023-09-23">23/09/23</time></span>
+				<p class="contador">Total de visualizações: <span id="contador"> 0 </span> </p>
+			</div><!-- elemento -->
+		</a> <!-- link pag aventura -->		
+	</div><!-- .elementos-c -->
+</section> <!--.elementos-->
 
-<hr>
-
-<section class="planos"  id="planos">
-	<h2 class="section_titulo">Planos</h2>
-
-	<div class="planos-c">
-		<div class="plano">
-			<h2 class="plano_titulo">Básico</h2>
-			<span class="plano_preco"><sup>R$</sup>25</span>
-			<hr class="plano_divisor">
-			<ul class="plano-lista">
-				<li class="plano-lista_item">1 mês de acesso ilimitado</li>
-				<li class="plano-lista_item">Acesso a todos os cursos</li>
-				<li class="plano-lista_item">Certificado de conclusão</li>
-			</ul>
-			<a href="#" class="plano_btn-comprar">Comprar</a>
-		</div>
-		
-		<div class="plano">
-			<h2 class="plano_titulo">Premium</h2>
-			<span class="plano_preco"><sup>R$</sup>40</span>
-			<hr class="plano_divisor">
-			<ul class="plano-lista">
-				<li class="plano-lista_item">1 mês de acesso ilimitado</li>
-				<li class="plano-lista_item">Acesso a todos os cursos</li>
-				<li class="plano-lista_item">Certificado de conclusão</li>
-				<li class="plano-lista_item">Suporte</li>
-			</ul>
-			<a href="#" class="plano_btn-comprar">Comprar</a>
-		</div>
-		
-		<div class="plano">
-			<h2 class="plano_titulo">Ultra</h2>
-			<span class="plano_preco"><sup>R$</sup>25</span>
-			<hr class="plano_divisor">
-			<ul class="plano-lista">
-				<li class="plano-lista_item">1 mês de acesso ilimitado</li>
-				<li class="plano-lista_item">Acesso a todos os cursos</li>
-				<li class="plano-lista_item">Certificado de conclusão</li>
-				<li class="plano-lista_item">Suporte</li>
-				<li class="plano-lista_item">Download das aulas</li>
-			</ul>
-			<a href="#" class="plano_btn-comprar">Comprar</a>
-		</div>
-
-	</div><!-- .planos-c-->
-
-</section><!--  .planos -->
-
-
-<hr>
-
-<section class="vantagens" id="vantagens">
-	<div class="vantagem">
-		<h2 class="vantagem_titulo">Foco em projeto</h2>
-		<p class="vantagem_descricao">Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl
-			ut ante blandit hendrerit. Aenean sit
-			amet nisi.</p>
-	</div>
-	
-	<div class="vantagem">
-		<h2 class="vantagem_titulo">Portfólio incrível</h2>
-		<p class="vantagem_descricao">Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl
-			ut
-			ante blandit hendrerit. Aenean sit
-			amet nisi.</p>
-	</div>
-	
-	<div class="vantagem">
-		<h2 class="vantagem_titulo">Aprenda fazendo</h2>
-		<p class="vantagem_descricao">Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl
-			ut
-			ante blandit hendrerit. Aenean sit
-			amet nisi.</p>
-	</div>
-	
-	<div class="vantagem">
-		<h2 class="vantagem_titulo">Para todas as idades</h2>
-		<p class="vantagem_descricao">Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl
-			ut
-			ante blandit hendrerit. Aenean sit
-			amet nisi.</p>
-	</div>
-	
-	<div class="vantagem">
-		<h2 class="vantagem_titulo">Atualizado</h2>
-		<p class="vantagem_descricao">Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl
-			ut
-			ante blandit hendrerit. Aenean sit
-			amet nisi.</p>
-	</div>
-	
-	<div class="vantagem">
-		<h2 class="vantagem_titulo">Comece hoje</h2>
-		<p class="vantagem_descricao">Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl
-			ut
-			ante blandit hendrerit. Aenean sit
-			amet nisi.</p>
-	</div>
-
-</section><!-- vantagens -->
-
-<hr>
-
+<footer>
 <section class="newsletter">
 	<div class="newsletter-c">
 		<div class="newsletter-info">
@@ -211,12 +107,7 @@
 		</form><!-- newsletter-form -->
 	</div> <!-- newsletter-c -->
 </section> <!-- newsletter -->
-
-<footer class="footer">
-	<p class="footer_copyright">Este é um projeto feito por Geovane para a Stacks Lab --- <br> São Paulo </p>
-	<a href="index.html">
-		<img src="img/logo.png" alt="logo" class="footer_logo">
-	</a>
 </footer>
+<script src="js/script.js"></script>
 </body>
 </html>
