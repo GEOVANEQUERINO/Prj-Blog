@@ -9,9 +9,10 @@
 /* 1. Container
 /* 2. Menu
 /* 3. Header
-/* 4. Somos (conteudo )
-/* 5. Newsletter
-/* 6. Footer
+/* 4. Conteudo
+/* 5. Elementos
+/* 6. Newsletter
+/* 7. Footer
 /**********************************/
 
 /**********************************/
@@ -187,160 +188,7 @@ img {
 }
 
 /**********************************/
-/* 6. Planos
-/**********************************/
-.planos{
-   /*	background-color: var(--clr-pink-light);*/
-   background-image: linear-gradient(to bottom, var(--clr-pink-light), var(--clr-pink-dark));
-}
-
-.planos-c {
-	max-width: 960px;
-	margin: 0 auto;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: flex-end;
-}
-
-.plano {
-	width: 290px;
-	margin: 10px;
-	border: 2px solid var(--clr-green-light);
-}
-
-.plano_titulo {
-	font-size: 3rem;
-	font-weight: bold;
-	text-align: center;
-	margin: 10px auto;
-}
-
-.plano_preco {
-	font-size: 3rem;
-	display: block;
-	text-align: center;
-	font-weight: bold;
-}
-
-.plano_preco sup {
-	position: relative;
-	font-size: 1.5rem;
-	top: -20px;
-}
-
-.plano_divisor {
-	background-color: var(--clr-green-light);
-	width: 20px;
-	margin: 5px auto;
-}
-
-.plano-lista {
-	max-width: 195px;
-	margin: 0 auto;
-}
-
-.plano-lista_item {
-	margin: 10px 0;
-	font-style: italic;
-	display: flex;
-	align-items: center;
-}
-
-.plano-lista_item::before {
-	content: "";
-	display: block;
-	width: 5px;
-	height: 5px;
-	background-color: var(--clr-green-light);
-	border-radius: 5px;
-	margin-right: 5px;
-}
-
-.plano_btn-comprar {
-	display: block;
-	max-width: 180px;
-	font-size: 2rem;
-	font-weight: bold;
-	margin: 15px auto;
-	padding: 10px;
-	text-align: center;
-	text-transform: uppercase;
-	border: 2px solid var(--clr-green-light);
-}
-
-.plano:last-child{
-	background-color: var(--clr-green-light);
-}
-
-.plano:last-child, .plano:last-child .plano_btn-comprar {
-	border: 2px solid var(--clr-pink-dark);
-}
-
-.plano:last-child .plano-lista_item::before, .plano:last-child .plano_divisor{
-	background: var(--clr-pink-dark);
-}
-
-
-@media(max-width: 800px){
-	.plano:nth-child(3){
-		order: -2;
-	}
-
-	.plano:nth-child(2){
-		order: -1;
-	}
-}
-
-/**********************************/
-/* 7. Vantagens
-/**********************************/
-.vantagens {
-	max-width: 960px;
-	margin: 0 auto;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-}
-
-.vantagem {
-	max-width: 240px;
-	margin: 10px;
-}
-
-.vantagem_titulo {
-	font-size: 1.7rem;
-	margin-bottom: 5px;
-	margin-left: 10px;
-}
-
-.vantagem_titulo::before {
-	content: "";
-	display: inline-block;
-	width: 10px;
-	height: 25px;
-	margin-right: 5px;
-}
-
-.vantagem:nth-of-type(3n+1) .vantagem_titulo::before{
-	background: var(--clr-green-light);
-}
-
-.vantagem:nth-of-type(3n+2) .vantagem_titulo::before{
-	background: var(--clr-pink-dark);
-}
-
-.vantagem:nth-of-type(3n+3) .vantagem_titulo::before{
-	background: var(--clr-green-dark);
-}
-
-@media (max-width: 800px) {
-	.vantagem {
-		max-width: 220px;
-	}
-}
-/**********************************/
-/* 8. Newsletter
+/* 6. Newsletter
 /**********************************/
 .newsletter {
 	background-color: var(--clr-green-light);
@@ -402,7 +250,7 @@ img {
 	flex: 1 1 260px;
 }
 /**********************************/
-/* 9. Footer
+/* 7. Footer
 /**********************************/
 
 .footer {
