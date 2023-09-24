@@ -10,6 +10,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/styles.css">
+	<script src="js/script.js"></script>
 </head>
 <body>
 <header>
@@ -31,9 +32,9 @@
 
 	<h1 class="intro"> Tudo sobre jogos de Luta, <br /> aproveite as dicas !!!!</h1>
 </header>
-				<span class="data">Post em  <time datetime="2023-09-23">23/09/23</time></span>
-				<p class="contador">Total de visualizações: <span id="contador"> 0 </span> </p>
+				
 <hr>
+
 <section class="conteudos" id="conteudos">
 	<div class="conteudos-c">
 		<div class="conteudos-c_texto">
@@ -69,11 +70,12 @@
 			<p class="newsletter-info_descricao">Assine e fique por dentro <br> das novidades</p>
 		</div><!-- newsletter-info -->
 		<form action="" class="newsletter-form">
-			<input type="text" placeholder="Seu e-mail" class="newsletter-form_input">
-			<button type="submit" class="newsletter-form_submit">Assinar</button>
+			<input type="text" placeholder="Seu e-mail" id="emailInput" class="newsletter-form_input">
+			<button type="submit" class="newsletter-form_submit" onclick="verificarEmail()">Assinar</button>
 		</form><!-- newsletter-form -->
 	</div> <!-- newsletter-c -->
 </section> <!-- newsletter -->
 </footer>
+
 </body>
 </html>

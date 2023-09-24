@@ -157,7 +157,10 @@ img {
 	justify-content: center;
 }
 
-.elemento {
+#elemento_post1,
+#elemento_post2,
+#elemento_post3,
+#elemento_post4 {
 	width: 200px;
 	margin: 0  20px;
 	border-bottom: 2px solid var(--clr-green-light);
